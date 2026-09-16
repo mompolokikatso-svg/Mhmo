@@ -1,0 +1,17 @@
+export default {
+  async fetch(request) {
+    const url =
+      "https://raw.githubusercontent.com/mompolokikatso-svg/Mhmo/main/movies.json";
+
+    const response = await fetch(url);
+
+    return new Response(response.body, {
+      status: response.status,
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "no-cache"
+      }
+    });
+  }
+};
