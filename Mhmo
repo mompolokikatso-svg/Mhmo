@@ -1,0 +1,11 @@
+[
+{"type":"PLAYER_EVENT",
+"data":
+{"player_info":
+{"imdb":"tt1300854","tmdb":null,
+"mediaType":"movie",
+"season":null,"episode":null},
+"player_status":"playing",
+"player_progress":125.4,
+"player_duration":7200}}
+]
