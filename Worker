@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
     const url =
-      "https://raw.githubusercontent.com/mompolokikatso-svg/Mhmo/main/movies.json";
+      "https://raw.githubusercontent.com/mompolokikatso-svg/Mhmo/main/Mhmo.json";
 
     const response = await fetch(url);
 
